@@ -14,7 +14,12 @@
 | [ambiback-ui](https://github.com/ambiback/ambiback-ui) | React web interface for the device API | [Published on GitHub Pages](https://ambiback.github.io/ambiback-ui/), not tested against a real device |
 | [ambiback-manager](https://github.com/ambiback/ambiback-manager) | Android app for device setup and control | Build and unit tests pass, not tested on a real device |
 | [ambiback-pc](https://github.com/ambiback/ambiback-pc) | Windows client that captures the screen and sends colors | Release build passes, full app not run |
+| [ambiback-hardware](https://github.com/ambiback/ambiback-hardware) | KiCad and Gerber files for the LED controller PCB | Prototype, not tested with the current firmware |
 | [ambiback-tv-legacy](https://github.com/ambiback/ambiback-tv-legacy) | Former Android TV app | Archived, not rebuilt |
+
+## Hardware
+
+The v0r1 LED controller PCB for the M5Stack Atom Lite was designed by [Andreas "Andy" Hofmann](https://github.com/ezcGman). It is a prototype, so review the design before ordering boards. The KiCad project, Gerber files and renderings are in [ambiback-hardware](https://github.com/ambiback/ambiback-hardware) under CC BY-NC-SA 4.0.
 
 ## History
 
@@ -24,7 +29,7 @@ The AmbiBack Bridge was sold for a short time as an interim solution for DreamSc
 
 ## License
 
-The projects are licensed under the GNU GPL v3. Third-party code keeps its own license, as noted in each repository.
+The software projects are licensed under the GNU GPL v3. The PCB data in ambiback-hardware is licensed under CC BY-NC-SA 4.0. Third-party code keeps its own license, as noted in each repository.
 
 Philips Hue and DreamScreen are trademarks of their respective owners. This project is not affiliated with them.
 
@@ -44,7 +49,12 @@ Philips Hue and DreamScreen are trademarks of their respective owners. This proj
 | [ambiback-ui](https://github.com/ambiback/ambiback-ui) | React-Weboberfläche für die Geräte-API | [Auf GitHub Pages veröffentlicht](https://ambiback.github.io/ambiback-ui/), nicht mit echtem Gerät getestet |
 | [ambiback-manager](https://github.com/ambiback/ambiback-manager) | Android-App zum Einrichten und Steuern | Build und Unit-Tests erfolgreich, nicht auf echtem Gerät getestet |
 | [ambiback-pc](https://github.com/ambiback/ambiback-pc) | Windows-Client, der den Bildschirm erfasst und Farben sendet | Release-Build erfolgreich, Gesamt-App nicht gestartet |
+| [ambiback-hardware](https://github.com/ambiback/ambiback-hardware) | KiCad- und Gerber-Dateien der LED-Controller-Platine | Prototyp, nicht mit aktueller Firmware getestet |
 | [ambiback-tv-legacy](https://github.com/ambiback/ambiback-tv-legacy) | Frühere Android-TV-App | Archiviert, nicht neu gebaut |
+
+### Hardware
+
+Die Platine v0r1 für den LED-Controller mit M5Stack Atom Lite stammt von [Andreas „Andy“ Hofmann](https://github.com/ezcGman). Sie ist ein Prototyp, prüfe den Entwurf daher, bevor du Platinen bestellst. KiCad-Projekt, Gerber-Dateien und Renderings liegen in [ambiback-hardware](https://github.com/ambiback/ambiback-hardware) unter CC BY-NC-SA 4.0.
 
 ### Geschichte
 
@@ -54,6 +64,6 @@ Die AmbiBack Bridge wurde kurze Zeit als Zwischenlösung für DreamScreen-Besitz
 
 ### Lizenz
 
-Die Projekte stehen unter der GNU GPL v3. Drittcode behält seine eigene Lizenz, siehe die einzelnen Repositories.
+Die Softwareprojekte stehen unter der GNU GPL v3. Die Platinendaten in ambiback-hardware stehen unter CC BY-NC-SA 4.0. Drittcode behält seine eigene Lizenz, siehe die einzelnen Repositories.
 
 Philips Hue und DreamScreen sind Marken ihrer jeweiligen Inhaber. Dieses Projekt steht in keiner Verbindung zu ihnen.
