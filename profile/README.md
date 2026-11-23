@@ -32,7 +32,7 @@ Philips Hue and DreamScreen are trademarks of their respective owners. This proj
 
 ## Deutsch
 
-**Open-Source-Ambilight zum Selberbauen für Fernseher und Monitore.** AmbiBack verbindet ESP32-Firmware, Kamera- und LED-Steuerung, eine Bridge von DreamScreen zu Philips Hue, Android-Apps und einen Windows-Client.
+**Open-Source-Hintergrundbeleuchtung zum Selberbauen für Fernseher und Monitore.** AmbiBack verbindet ESP32-Firmware, Kamera- und LED-Steuerung, eine Bridge von DreamScreen zu Philips Hue, Android-Apps und einen Windows-Client.
 
 > **Status:** AmbiBack-Geräte werden seit rund fünf Jahren nicht mehr verkauft. AmbiBack ist heute ein DIY- und Open-Source-Projekt ohne Produktsupport. Der Code wurde im November 2026 in diese Organisation migriert. Der migrierte Stand wurde nicht mit echter Hardware getestet, und die Firmware wurde seit den Migrationsänderungen nicht kompiliert.
 
