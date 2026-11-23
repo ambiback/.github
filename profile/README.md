@@ -14,6 +14,7 @@
 | [ambiback-ui](https://github.com/ambiback/ambiback-ui) | React web interface for the device API | [Published on GitHub Pages](https://ambiback.github.io/ambiback-ui/), not tested against a real device |
 | [ambiback-manager](https://github.com/ambiback/ambiback-manager) | Android app for device setup and control | Build and unit tests pass, not tested on a real device |
 | [ambiback-pc](https://github.com/ambiback/ambiback-pc) | Windows client that captures the screen and sends colors | Release build passes, full app not run |
+| [ambiback-flasher](https://github.com/ambiback/ambiback-flasher) | Windows tool to build, flash and upload firmware and control a device over USB | Release build passes, not started or tested with hardware |
 | [ambiback-hardware](https://github.com/ambiback/ambiback-hardware) | KiCad and Gerber files for the LED controller PCB | Prototype, not tested with the current firmware |
 | [ambiback-tv-legacy](https://github.com/ambiback/ambiback-tv-legacy) | Former Android TV app | Archived, not rebuilt |
 
@@ -49,6 +50,7 @@ Philips Hue and DreamScreen are trademarks of their respective owners. This proj
 | [ambiback-ui](https://github.com/ambiback/ambiback-ui) | React-Weboberfläche für die Geräte-API | [Auf GitHub Pages veröffentlicht](https://ambiback.github.io/ambiback-ui/), nicht mit echtem Gerät getestet |
 | [ambiback-manager](https://github.com/ambiback/ambiback-manager) | Android-App zum Einrichten und Steuern | Build und Unit-Tests erfolgreich, nicht auf echtem Gerät getestet |
 | [ambiback-pc](https://github.com/ambiback/ambiback-pc) | Windows-Client, der den Bildschirm erfasst und Farben sendet | Release-Build erfolgreich, Gesamt-App nicht gestartet |
+| [ambiback-flasher](https://github.com/ambiback/ambiback-flasher) | Windows-Tool zum Bauen, Flashen und Hochladen der Firmware und zur Gerätesteuerung über USB | Release-Build erfolgreich, nicht gestartet und nicht mit Hardware getestet |
 | [ambiback-hardware](https://github.com/ambiback/ambiback-hardware) | KiCad- und Gerber-Dateien der LED-Controller-Platine | Prototyp, nicht mit aktueller Firmware getestet |
 | [ambiback-tv-legacy](https://github.com/ambiback/ambiback-tv-legacy) | Frühere Android-TV-App | Archiviert, nicht neu gebaut |
 
