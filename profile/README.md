@@ -4,13 +4,13 @@
 
 [Project website](https://www.ambiback.de/) · [Deutsch](#deutsch)
 
-> **Status:** AmbiBack devices have not been on sale for around five years. This is a DIY and open-source project, with no product support. The code was migrated to this organization in November 2026. The migrated state has not been tested with real hardware. 8 of 13 firmware device types compile, so far only with a customized ESP32 core that is not published yet.
+> **Status:** AmbiBack devices have not been on sale for around five years. This is a DIY and open-source project, with no product support. The code was migrated to this organization in November 2026. The migrated state has not been tested with real hardware. All 13 firmware device types compile with the public Arduino ESP32 core 3.3.6.
 
 ## Projects
 
 | Repository | What it is | Current state |
 | --- | --- | --- |
-| [ambiback-firmware](https://github.com/ambiback/ambiback-firmware) | ESP32 firmware for LEDs, camera, DreamScreen, Hue and network clients | 8 of 13 device types compile with an unpublished core, not tested on hardware |
+| [ambiback-firmware](https://github.com/ambiback/ambiback-firmware) | ESP32 firmware for LEDs, camera, DreamScreen, Hue and network clients | All 13 device types compile with core 3.3.6, not tested on hardware |
 | [ambiback-ui](https://github.com/ambiback/ambiback-ui) | React web interface for the device API | [Published on GitHub Pages](https://ambiback.github.io/ambiback-ui/), not tested against a real device |
 | [ambiback-manager](https://github.com/ambiback/ambiback-manager) | Android app for device setup and control | Build and unit tests pass, not tested on a real device |
 | [ambiback-pc](https://github.com/ambiback/ambiback-pc) | Windows client that captures the screen and sends colors | Release build passes, full app not run |
@@ -40,13 +40,13 @@ Philips Hue and DreamScreen are trademarks of their respective owners. This proj
 
 **Open-Source-Hintergrundbeleuchtung zum Selberbauen für Fernseher und Monitore.** AmbiBack verbindet ESP32-Firmware, Kamera- und LED-Steuerung, eine Bridge von DreamScreen zu Philips Hue, Android-Apps und einen Windows-Client.
 
-> **Status:** AmbiBack-Geräte werden seit rund fünf Jahren nicht mehr verkauft. AmbiBack ist heute ein DIY- und Open-Source-Projekt ohne Produktsupport. Der Code wurde im November 2026 in diese Organisation migriert. Der migrierte Stand wurde nicht mit echter Hardware getestet. Von der Firmware bauen 8 von 13 Gerätetypen, bisher nur mit einem angepassten ESP32-Core, der noch nicht veröffentlicht ist.
+> **Status:** AmbiBack-Geräte werden seit rund fünf Jahren nicht mehr verkauft. AmbiBack ist heute ein DIY- und Open-Source-Projekt ohne Produktsupport. Der Code wurde im November 2026 in diese Organisation migriert. Der migrierte Stand wurde nicht mit echter Hardware getestet. Alle 13 Gerätetypen der Firmware bauen mit dem öffentlichen Arduino-ESP32-Core 3.3.6.
 
 ### Projekte
 
 | Repository | Was es ist | Aktueller Stand |
 | --- | --- | --- |
-| [ambiback-firmware](https://github.com/ambiback/ambiback-firmware) | ESP32-Firmware für LEDs, Kamera, DreamScreen, Hue und Netzwerk-Clients | 8 von 13 Gerätetypen bauen mit noch unveröffentlichtem Core, nicht auf Hardware getestet |
+| [ambiback-firmware](https://github.com/ambiback/ambiback-firmware) | ESP32-Firmware für LEDs, Kamera, DreamScreen, Hue und Netzwerk-Clients | Alle 13 Gerätetypen bauen mit Core 3.3.6, nicht auf Hardware getestet |
 | [ambiback-ui](https://github.com/ambiback/ambiback-ui) | React-Weboberfläche für die Geräte-API | [Auf GitHub Pages veröffentlicht](https://ambiback.github.io/ambiback-ui/), nicht mit echtem Gerät getestet |
 | [ambiback-manager](https://github.com/ambiback/ambiback-manager) | Android-App zum Einrichten und Steuern | Build und Unit-Tests erfolgreich, nicht auf echtem Gerät getestet |
 | [ambiback-pc](https://github.com/ambiback/ambiback-pc) | Windows-Client, der den Bildschirm erfasst und Farben sendet | Release-Build erfolgreich, Gesamt-App nicht gestartet |
