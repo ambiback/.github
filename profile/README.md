@@ -1,6 +1,6 @@
 # AmbiBack
 
-**Open-source DIY ambient backlighting for TVs and monitors.** AmbiBack combines ESP32 firmware, camera and LED control, a bridge from DreamScreen to Philips Hue, Android apps and a Windows client.
+**Open-source DIY ambient backlighting for TVs and monitors.** AmbiBack combines ESP32 firmware, camera and LED control, a bridge from DreamScreen to Philips Hue, Android apps, a Windows client and USB flashers for Windows and the browser.
 
 [Project website](https://www.ambiback.de/) · [Deutsch](#deutsch)
 
@@ -8,13 +8,31 @@
 
 ## Projects
 
+### Firmware and device
+
 | Repository | What it is | Current state |
 | --- | --- | --- |
 | [ambiback-firmware](https://github.com/ambiback/ambiback-firmware) | ESP32 firmware for LEDs, camera, DreamScreen, Hue and network clients | All 13 device types compile with core 3.3.6, not tested on hardware |
 | [ambiback-ui](https://github.com/ambiback/ambiback-ui) | React web interface for the device API | [Published on GitHub Pages](https://ambiback.github.io/ambiback-ui/), not tested against a real device |
+
+### Install firmware
+
+| Repository | What it is | Current state |
+| --- | --- | --- |
+| [ambiback-web-flasher](https://github.com/ambiback/ambiback-web-flasher) | **New:** browser-based USB flasher, serial monitor and crash decoder for AmbiBack ESP32 devices (Chrome, Edge or Opera) | In progress, [first version under review](https://github.com/ambiback/ambiback-web-flasher/pull/1); will be at [ambiback.github.io/ambiback-web-flasher](https://ambiback.github.io/ambiback-web-flasher/), not tested with hardware |
+| [ambiback-flasher](https://github.com/ambiback/ambiback-flasher) | Windows tool to build, flash and upload firmware and control a device over USB | [Release v1.0.0](https://github.com/ambiback/ambiback-flasher/releases/tag/v1.0.0) with installer and [user guide](https://github.com/ambiback/ambiback-flasher/blob/main/docs/user-guide.md), not tested with hardware |
+
+### Apps
+
+| Repository | What it is | Current state |
+| --- | --- | --- |
 | [ambiback-manager](https://github.com/ambiback/ambiback-manager) | Android app for device setup and control | Build and unit tests pass, not tested on a real device |
-| [ambiback-pc](https://github.com/ambiback/ambiback-pc) | Windows client that captures the screen and sends colors | Release build passes, full app not run |
-| [ambiback-flasher](https://github.com/ambiback/ambiback-flasher) | Windows tool to build, flash and upload firmware and control a device over USB | Release build passes, not started or tested with hardware |
+| [ambiback-pc](https://github.com/ambiback/ambiback-pc) | Windows client that captures the screen and sends colors to AmbiBack and Philips Hue | Release build passes, new [user guide](https://github.com/ambiback/ambiback-pc/blob/main/docs/user-guide.md) in English and German, full app not tested with hardware |
+
+### Hardware and legacy
+
+| Repository | What it is | Current state |
+| --- | --- | --- |
 | [ambiback-hardware](https://github.com/ambiback/ambiback-hardware) | KiCad and Gerber files for the LED controller PCB | Prototype, not tested with the current firmware |
 | [ambiback-tv-legacy](https://github.com/ambiback/ambiback-tv-legacy) | Former Android TV app | Archived, not rebuilt |
 
@@ -38,19 +56,37 @@ Philips Hue and DreamScreen are trademarks of their respective owners. This proj
 
 ## Deutsch
 
-**Open-Source-Hintergrundbeleuchtung zum Selberbauen für Fernseher und Monitore.** AmbiBack verbindet ESP32-Firmware, Kamera- und LED-Steuerung, eine Bridge von DreamScreen zu Philips Hue, Android-Apps und einen Windows-Client.
+**Open-Source-Hintergrundbeleuchtung zum Selberbauen für Fernseher und Monitore.** AmbiBack verbindet ESP32-Firmware, Kamera- und LED-Steuerung, eine Bridge von DreamScreen zu Philips Hue, Android-Apps, einen Windows-Client und USB-Flasher für Windows und den Browser.
 
 > **Status:** AmbiBack-Geräte werden seit rund fünf Jahren nicht mehr verkauft. AmbiBack ist heute ein DIY- und Open-Source-Projekt ohne Produktsupport. Der Code wurde im November 2026 in diese Organisation migriert. Der migrierte Stand wurde nicht mit echter Hardware getestet. Alle 13 Gerätetypen der Firmware bauen mit dem öffentlichen Arduino-ESP32-Core 3.3.6.
 
 ### Projekte
 
+#### Firmware und Gerät
+
 | Repository | Was es ist | Aktueller Stand |
 | --- | --- | --- |
 | [ambiback-firmware](https://github.com/ambiback/ambiback-firmware) | ESP32-Firmware für LEDs, Kamera, DreamScreen, Hue und Netzwerk-Clients | Alle 13 Gerätetypen bauen mit Core 3.3.6, nicht auf Hardware getestet |
 | [ambiback-ui](https://github.com/ambiback/ambiback-ui) | React-Weboberfläche für die Geräte-API | [Auf GitHub Pages veröffentlicht](https://ambiback.github.io/ambiback-ui/), nicht mit echtem Gerät getestet |
+
+#### Firmware installieren
+
+| Repository | Was es ist | Aktueller Stand |
+| --- | --- | --- |
+| [ambiback-web-flasher](https://github.com/ambiback/ambiback-web-flasher) | **Neu:** USB-Flasher im Browser mit seriellem Monitor und Absturz-Decoder für AmbiBack-ESP32-Geräte (Chrome, Edge oder Opera) | In Arbeit, [erste Version im Review](https://github.com/ambiback/ambiback-web-flasher/pull/1); künftig unter [ambiback.github.io/ambiback-web-flasher](https://ambiback.github.io/ambiback-web-flasher/), nicht mit Hardware getestet |
+| [ambiback-flasher](https://github.com/ambiback/ambiback-flasher) | Windows-Tool zum Bauen, Flashen und Hochladen der Firmware und zur Gerätesteuerung über USB | [Release v1.0.0](https://github.com/ambiback/ambiback-flasher/releases/tag/v1.0.0) mit Installer und [Benutzerhandbuch](https://github.com/ambiback/ambiback-flasher/blob/main/docs/user-guide.de.md), nicht mit Hardware getestet |
+
+#### Apps
+
+| Repository | Was es ist | Aktueller Stand |
+| --- | --- | --- |
 | [ambiback-manager](https://github.com/ambiback/ambiback-manager) | Android-App zum Einrichten und Steuern | Build und Unit-Tests erfolgreich, nicht auf echtem Gerät getestet |
-| [ambiback-pc](https://github.com/ambiback/ambiback-pc) | Windows-Client, der den Bildschirm erfasst und Farben sendet | Release-Build erfolgreich, Gesamt-App nicht gestartet |
-| [ambiback-flasher](https://github.com/ambiback/ambiback-flasher) | Windows-Tool zum Bauen, Flashen und Hochladen der Firmware und zur Gerätesteuerung über USB | Release-Build erfolgreich, nicht gestartet und nicht mit Hardware getestet |
+| [ambiback-pc](https://github.com/ambiback/ambiback-pc) | Windows-Client, der den Bildschirm erfasst und Farben an AmbiBack und Philips Hue sendet | Release-Build erfolgreich, neues [Benutzerhandbuch](https://github.com/ambiback/ambiback-pc/blob/main/docs/benutzerhandbuch.md) auf Deutsch und Englisch, Gesamt-App nicht mit Hardware getestet |
+
+#### Hardware und Altbestand
+
+| Repository | Was es ist | Aktueller Stand |
+| --- | --- | --- |
 | [ambiback-hardware](https://github.com/ambiback/ambiback-hardware) | KiCad- und Gerber-Dateien der LED-Controller-Platine | Prototyp, nicht mit aktueller Firmware getestet |
 | [ambiback-tv-legacy](https://github.com/ambiback/ambiback-tv-legacy) | Frühere Android-TV-App | Archiviert, nicht neu gebaut |
 
